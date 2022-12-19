@@ -5,7 +5,7 @@ pipeline {
         stage('Step 1') {
             steps {
                 echo "Hello World: 1.0.${BUILD_ID}"
-                echo "jahir > file_00${BUILD_ID}.txt"
+                echo "jahir" > "file_00${BUILD_ID}.txt"
             }
         }
     }
